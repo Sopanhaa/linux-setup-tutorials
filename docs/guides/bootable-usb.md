@@ -44,11 +44,11 @@ Copying an ISO file to a USB drive normally does not make it bootable. Use a too
 
 Before you begin, make sure you have:
 
-- **Computer** — Windows or Linux with internet access.
-- **USB drive** — At least 8 GB of storage (or enough for your ISO).
-- **Linux ISO** — Download from an official website such as [Ubuntu](https://ubuntu.com/download), [Fedora](https://fedoraproject.org/), or [Arch Linux](https://archlinux.org/download/).
-- **USB tool** — [Rufus](https://rufus.ie/) or [Ventoy](https://www.ventoy.net/).
-- **Backup** — Save important files from your USB before starting.
+- **Computer**: Windows or Linux with internet access.
+- **USB drive**: At least 8 GB of storage (or enough for your ISO).
+- **Linux ISO**: Download from an official website such as [Ubuntu](https://ubuntu.com/download), [Fedora](https://fedoraproject.org/), or [Arch Linux](https://archlinux.org/download/).
+- **USB tool**: [Rufus](https://rufus.ie/) or [Ventoy](https://www.ventoy.net/).
+- **Backup**: Save important files from your USB before starting.
 
 > [!WARNING]
 > Creating a bootable USB may erase all data on the selected USB drive. Back up your files and check the **USB name and capacity** before proceeding. Never select your computer's internal drive.
@@ -71,7 +71,7 @@ Choose a distribution and download its installation image from its official webs
 3. Download the ISO file and remember where you saved it.
 4. Find the official checksum or verification instructions on the same distribution website.
 
-### Check the ISO download
+### Check ISO download
 
 A **SHA-256 checksum** helps detect incomplete or changed downloads. Replace `filename.iso` with your file's actual name and run the appropriate command in the directory containing the ISO.
 
@@ -104,7 +104,7 @@ See [Arch Linux Downloads](https://archlinux.org/download/) or [Linux Mint ISO V
 | Rufus | Windows | Creating a bootable USB from one ISO | [rufus.ie](https://rufus.ie/) |
 | Ventoy | Windows, Linux | Keeping multiple supported ISO images on one USB | [ventoy.net](https://www.ventoy.net/) |
 
-### Method A: Rufus (Windows)
+### Rufus (Windows)
 
 Rufus writes a Linux installation image to a USB drive. Follow the distribution's own Rufus instructions if they specify different settings.
 
@@ -121,7 +121,7 @@ Rufus writes a Linux installation image to a USB drive. Follow the distribution'
 
 Official reference: [Rufus](https://rufus.ie/) · [Ubuntu's bootable USB guide](https://ubuntu.com/desktop/docs/en/latest/how-to/create-a-bootable-usb-stick/)
 
-### Method B: Ventoy (Windows and Linux)
+### Ventoy (Windows and Linux)
 
 Ventoy lets you keep multiple ISO files on a USB drive. Installing Ventoy **onto the drive** can erase or change its partitions; later, supported ISO files are normally copied onto the Ventoy data partition.
 
