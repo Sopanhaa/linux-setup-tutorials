@@ -27,12 +27,12 @@ More distributions will be added over time.
 
 Each distribution follows a simple learning path:
 
-1. **Introduction** — Understand the distribution and its requirements.
-2. **Download** — Find and verify the official installation image.
-3. **Installation** — Follow step-by-step installation instructions.
-4. **Initial Setup** — Configure networking, updates, and essential applications.
-5. **Desktop Setup** — Learn about desktop environments and customization.
-6. **Troubleshooting** — Solve common problems.
+1. **Introduction**: Understand the distribution and its requirements.
+2. **Download**: Find and verify the official installation image.
+3. **Installation**: Follow step-by-step installation instructions.
+4. **Initial Setup**: Configure networking, updates, and essential applications.
+5. **Desktop Setup**: Learn about desktop environments and customization.
+6. **Troubleshooting**: Solve common problems.
 
 > Always back up important files before installing Linux or changing disk partitions.
 
