@@ -1,24 +1,46 @@
 # Creating a Bootable Linux USB Drive
 
 **Difficulty:** Beginner  
-**Supported systems:** Windows and Linux (depending on the tool)  
-**Last reviewed:** November 13, 2026  
+**Supported systems:** Windows and Linux (depending on the tool)   
 **Testing status:** Physical USB boot testing pending
 
 **General guides:** [All guides](./README.md)
 
 ## Overview
 
-A bootable USB drive starts a Linux installer or live environment without first installing Linux on your computer. You can use it to try a distribution, install Linux, or access recovery tools.
+A **bootable USB** lets you try, install, or repair Linux on your computer.
 
-An **ISO image** is a file containing the software needed to boot an operating system. For most distributions, simply copying an ISO to an ordinary USB drive will **not** make it bootable. Use a USB-writing tool such as Rufus or a multiboot tool such as Ventoy.
+You can use it to:
 
-This tutorial shows two methods:
+- **Try Linux** — Test Linux without installing it.
+- **Install Linux** — Install Ubuntu, Fedora, Arch Linux, or other distributions.
+- **Repair Linux** — Fix system problems using recovery tools.
 
-- **Rufus (Windows):** Write one Linux ISO to a USB drive.
-- **Ventoy (Windows and Linux):** Prepare a USB drive once, then copy multiple supported ISO files onto it.
+### What is an ISO File?
 
-Choose **one** method. You do not need both.
+An **ISO file** contains the files needed to start or install an operating system.
+
+Example: `ubuntu-26.04-desktop-amd64.iso`
+
+Copying an ISO file to a USB normally does not make it bootable. You need a tool like **Rufus** or **Ventoy**.
+
+### Choose a Method
+
+| Method | Platform | Description |
+|--------|----------|-------------|
+| **A: Rufus** | Windows | Create a bootable USB with one Linux ISO. |
+| **B: Ventoy** | Windows and Linux | Use multiple Linux ISO files on one USB. |
+
+**Which should you use?**
+
+- **Rufus** — Best for installing one Linux distribution.
+- **Ventoy** — Best for testing multiple Linux distributions.
+
+> [!WARNING]
+> Creating a bootable USB may erase your USB data. Back up your files first.
+
+> [!NOTE]
+> Choose only one method. You do not need both.
 
 ## Requirements
 
