@@ -67,15 +67,6 @@ Please keep tutorials simple, accurate, and accessible to beginners.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
-## 🙏 Acknowledgements
-
-Inspired by the documentation and learning approaches of:
-
-- [RabbitMQ Tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)
-- [Arch Linux Install Guide](https://github.com/silentz/arch-linux-install-guide)
-
-Thanks to the Linux and open-source communities for sharing knowledge and maintaining public documentation.
-
 ## 📄 License
 
 License to be selected before public release.
