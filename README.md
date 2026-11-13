@@ -67,7 +67,7 @@ Please keep tutorials simple, accurate, and accessible to beginners.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
-## 📄 License
+## License
 
 License to be selected before public release.
 
