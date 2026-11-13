@@ -199,10 +199,6 @@ A successful write message does **not** prove the USB will boot on every compute
 
 Writing an ISO or installing Ventoy can change the partition layout. After you no longer need the bootable media, restore the USB through your operating system's disk-management tool. **Formatting or repartitioning erases data**; carefully confirm which drive you are changing.
 
-## Summary
-
-You learned how to download and verify a Linux ISO, create bootable media with **Rufus** or **Ventoy**, test that it boots, and diagnose common problems.
-
 ## Next steps
 
 Follow your chosen distribution's installation tutorial:
