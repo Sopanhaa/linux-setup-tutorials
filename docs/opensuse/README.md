@@ -1,6 +1,6 @@
 # openSUSE
 
-openSUSE — Linux for desktops and developers.
+openSUSE Linux for desktops and developers.
 
 **Official website:** [www.opensuse.org](https://www.opensuse.org/) ·
 **Documentation:** [doc.opensuse.org](https://doc.opensuse.org/)
