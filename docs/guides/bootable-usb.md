@@ -233,14 +233,4 @@ You can also [browse all general Linux guides](./README.md).
 - [ArchWiki — USB flash installation medium](https://wiki.archlinux.org/title/USB_flash_installation_medium)
 - [Linux Mint — Verify your ISO](https://linuxmint-installation-guide.readthedocs.io/en/latest/verify.html)
 
-## Testing record
 
-| Item | Result |
-| --- | --- |
-| Markdown and documentation review | Drafted; GitHub rendering review pending |
-| Physical USB creation with Rufus | Not tested |
-| Physical USB creation with Ventoy | Not tested |
-| Boot verification on real hardware | Not tested |
-| Test hardware / ISO / tool versions | To be recorded after testing |
-
-> **Maintainer note:** Update this record with the tested USB model, ISO, tool version, firmware/boot mode, and actual results after hands-on testing. Do not mark the tutorial hardware-tested until those checks are completed.
