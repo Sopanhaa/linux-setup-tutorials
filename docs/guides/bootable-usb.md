@@ -32,12 +32,6 @@ Copying an ISO file to a USB drive normally does not make it bootable. Use a too
 - **[Rufus](https://rufus.ie/)**: Best for installing one Linux distribution on Windows.
 - **[Ventoy](https://www.ventoy.net/)**: Best for testing multiple Linux distributions on Windows or Linux.
 
-> [!WARNING]
-> Creating a bootable USB may erase your USB data. Back up your files first.
-
-> [!NOTE]
-> Choose only one method. You do not need both.
-
 ## Requirements
 
 Before you begin, make sure you have:
