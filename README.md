@@ -1,4 +1,4 @@
-# Linux Setup Tutorials 🐧
+# Linux Setup Tutorials 
 
 **Learn Linux installation and setup, step by step.**
 
@@ -8,7 +8,7 @@ Our goal is to make Linux easier to understand through simple explanations, prac
 
 📖 **[Browse the full documentation →](docs/README.md)**
 
-## 📚 Linux Distributions
+## Linux Distributions
 
 Choose a Linux distribution to start learning.
 
@@ -23,7 +23,7 @@ Choose a Linux distribution to start learning.
 
 More distributions will be added over time.
 
-## 🚀 Getting Started
+## Getting Started
 
 Each distribution follows a simple learning path:
 
@@ -36,7 +36,7 @@ Each distribution follows a simple learning path:
 
 > Always back up important files before installing Linux or changing disk partitions.
 
-## 🛠 General Linux Guides
+## General Linux Guides
 
 The project also covers topics shared across distributions:
 
@@ -48,7 +48,7 @@ The project also covers topics shared across distributions:
 - [Basic Linux commands](docs/guides/basic-commands.md)
 - [Linux system maintenance](docs/guides/system-maintenance.md)
 
-## 🔗 Official Documentation
+## Official Documentation
 
 - [Ubuntu Documentation](https://documentation.ubuntu.com/)
 - [Fedora Documentation](https://docs.fedoraproject.org/)
@@ -57,7 +57,7 @@ The project also covers topics shared across distributions:
 - [Linux Mint Documentation](https://linuxmint.com/documentation.php)
 - [openSUSE Documentation](https://doc.opensuse.org/)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
