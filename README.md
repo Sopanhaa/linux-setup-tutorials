@@ -6,7 +6,7 @@ Linux Setup Tutorials is an open-source documentation project designed to help b
 
 Our goal is to make Linux easier to understand through simple explanations, practical tutorials, and official learning resources.
 
-📖 **[Browse the full documentation →](docs/README.md)**
+**[Browse the full documentation](docs/README.md)**
 
 ## Linux Distributions
 
