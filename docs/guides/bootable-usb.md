@@ -6,15 +6,13 @@
 
 **General guides:** [All guides](./README.md)
 
-## Overview
-
 A **bootable USB** lets you try, install, or repair Linux on your computer.
 
 You can use it to:
 
-- **Try Linux** — Test Linux without installing it.
-- **Install Linux** — Install Ubuntu, Fedora, Arch Linux, or other distributions.
-- **Repair Linux** — Fix system problems using recovery tools.
+- **Try Linux**: Test Linux without installing it.
+- **Install Linux**: Install Ubuntu, Fedora, Arch Linux, or other distributions.
+- **Repair Linux**: Fix system problems using recovery tools.
 
 ### What is an ISO File?
 
@@ -22,19 +20,19 @@ An **ISO file** contains the files needed to start or install an operating syste
 
 Example: `ubuntu-26.04-desktop-amd64.iso`
 
-Copying an ISO file to a USB normally does not make it bootable. You need a tool like **Rufus** or **Ventoy**.
+Copying an ISO file to a USB drive normally does not make it bootable. Use a tool like **[Rufus](https://rufus.ie/)** or **[Ventoy](https://www.ventoy.net/)** to create a bootable USB.
 
 ### Choose a Method
 
 | Method | Platform | Description |
 |--------|----------|-------------|
-| **A: Rufus** | Windows | Create a bootable USB with one Linux ISO. |
-| **B: Ventoy** | Windows and Linux | Use multiple Linux ISO files on one USB. |
+| **[Rufus](https://rufus.ie/)** | Windows | Create a bootable USB with one Linux ISO. |
+| **[Ventoy](https://www.ventoy.net/)** | Windows and Linux | Use multiple Linux ISO files on one USB. |
 
 **Which should you use?**
 
-- **Rufus** — Best for installing one Linux distribution.
-- **Ventoy** — Best for testing multiple Linux distributions.
+- **Rufus**: Best for installing one Linux distribution.
+- **Ventoy**: Best for testing multiple Linux distributions.
 
 > [!WARNING]
 > Creating a bootable USB may erase your USB data. Back up your files first.
