@@ -42,9 +42,6 @@ Before you begin, make sure you have:
 - **USB tool**: [Rufus](https://rufus.ie/) or [Ventoy](https://www.ventoy.net/).
 - **Backup**: Save important files from your USB before starting.
 
-> [!WARNING]
-> Creating a bootable USB may erase all data on the selected USB drive. Back up your files and check the **USB name and capacity** before proceeding. Never select your computer's internal drive.
-
 ## Step 1: Download a Linux ISO
 
 Choose a distribution and download its installation image from its official website.
