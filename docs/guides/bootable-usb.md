@@ -1,4 +1,4 @@
-# Creating a Bootable Linux USB Drive
+# Create a Bootable USB Drive
 
 **Difficulty:** Beginner  
 **Supported systems:** [Windows](https://www.microsoft.com/windows) and [Linux](https://www.kernel.org/) (depending on the tool)   
