@@ -31,8 +31,8 @@ Copying an ISO file to a USB drive normally does not make it bootable. Use a too
 
 **Which should you use?**
 
-- **[Rufus](https://rufus.ie/)** — Best for installing one Linux distribution on Windows.
-- **[Ventoy](https://www.ventoy.net/)** — Best for testing multiple Linux distributions on Windows or Linux.
+- **[Rufus](https://rufus.ie/)**: Best for installing one Linux distribution on Windows.
+- **[Ventoy](https://www.ventoy.net/)**: Best for testing multiple Linux distributions on Windows or Linux.
 
 > [!WARNING]
 > Creating a bootable USB may erase your USB data. Back up your files first.
@@ -42,13 +42,16 @@ Copying an ISO file to a USB drive normally does not make it bootable. Use a too
 
 ## Requirements
 
-- A Windows or Linux computer with internet access.
-- A USB drive with enough space for the chosen ISO (8 GB or more recommended).
-- A Linux ISO downloaded from an official website.
-- Rufus or Ventoy, depending on your computer and your needs.
-- A backup of any files currently on the USB drive.
+Before you begin, make sure you have:
 
-> **Warning — Your USB data may be erased.** Both tools can overwrite or repartition the selected USB drive. Back up the USB first, and confirm its **name and capacity** before proceeding. Never select your internal system disk.
+- **Computer** — Windows or Linux with internet access.
+- **USB drive** — At least 8 GB of storage (or enough for your ISO).
+- **Linux ISO** — Download from an official website such as [Ubuntu](https://ubuntu.com/download), [Fedora](https://fedoraproject.org/), or [Arch Linux](https://archlinux.org/download/).
+- **USB tool** — [Rufus](https://rufus.ie/) or [Ventoy](https://www.ventoy.net/).
+- **Backup** — Save important files from your USB before starting.
+
+> [!WARNING]
+> Creating a bootable USB may erase all data on the selected USB drive. Back up your files and check the **USB name and capacity** before proceeding. Never select your computer's internal drive.
 
 ## Step 1: Download a Linux ISO
 
