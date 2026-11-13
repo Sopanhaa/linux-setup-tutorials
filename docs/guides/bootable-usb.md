@@ -227,10 +227,10 @@ You can also [browse all general Linux guides](./README.md).
 
 ## Official references
 
-- [Ubuntu — Create a bootable USB stick](https://ubuntu.com/desktop/docs/en/latest/how-to/create-a-bootable-usb-stick/)
-- [Rufus — Official website](https://rufus.ie/)
-- [Ventoy — Getting started](https://www.ventoy.net/en/doc_start.html)
-- [ArchWiki — USB flash installation medium](https://wiki.archlinux.org/title/USB_flash_installation_medium)
-- [Linux Mint — Verify your ISO](https://linuxmint-installation-guide.readthedocs.io/en/latest/verify.html)
+- [Ubuntu Create a bootable USB stick](https://ubuntu.com/desktop/docs/en/latest/how-to/create-a-bootable-usb-stick/)
+- [Rufus Official website](https://rufus.ie/)
+- [Ventoy Getting started](https://www.ventoy.net/en/doc_start.html)
+- [ArchWiki USB flash installation medium](https://wiki.archlinux.org/title/USB_flash_installation_medium)
+- [Linux Mint Verify your ISO](https://linuxmint-installation-guide.readthedocs.io/en/latest/verify.html)
 
 
