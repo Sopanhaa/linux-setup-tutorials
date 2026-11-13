@@ -1,18 +1,18 @@
 # Ubuntu
 
-Ubuntu — Beginner-friendly Linux desktop.
+Ubuntu Beginner friendly Linux desktop.
 
 **Official website:** [ubuntu.com](https://ubuntu.com/) ·
 **Documentation:** [documentation.ubuntu.com](https://documentation.ubuntu.com/)
 
 ## Learning path
 
-1. [Introduction](./01-introduction.md) — Understand the distribution and its requirements.
-2. [Download](./02-download.md) — Find and verify the official installation image.
-3. [Installation](./03-installation.md) — Follow step-by-step installation instructions.
-4. [Initial Setup](./04-initial-setup.md) — Configure networking, updates, and essential applications.
-5. [Desktop Setup](./05-desktop-setup.md) — Learn about desktop environments and customization.
-6. [Troubleshooting](./06-troubleshooting.md) — Solve common problems.
+1. [Introduction](./01-introduction.md) Understand the distribution and its requirements.
+2. [Download](./02-download.md) Find and verify the official installation image.
+3. [Installation](./03-installation.md) Follow step-by-step installation instructions.
+4. [Initial Setup](./04-initial-setup.md) Configure networking, updates, and essential applications.
+5. [Desktop Setup](./05-desktop-setup.md) Learn about desktop environments and customization.
+6. [Troubleshooting](./06-troubleshooting.md) Solve common problems.
 
 > Always back up important files before installing Linux or changing disk partitions.
 
