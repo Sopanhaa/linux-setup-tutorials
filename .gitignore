@@ -1,0 +1,147 @@
+# Linux Setup Tutorials — local and generated files
+#
+# Keep documentation, shared project configuration, useful scripts, and
+# GitHub Actions workflows tracked. Ignore only local state, secrets, and
+# generated artifacts.
+
+# ---------------------------------------------------------------------------
+# Operating system metadata
+# ---------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Editor and IDE local state
+# ---------------------------------------------------------------------------
+# Keep shared VS Code settings, but ignore local workspace state.
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ---------------------------------------------------------------------------
+# Local AI coding-agent state
+# ---------------------------------------------------------------------------
+# Shared OpenCode project configuration such as opencode.json, agents/,
+# commands/, plugins/, and skills/ should stay tracked. Only ignore runtime
+# data and generated databases.
+.opencode/cache/
+.opencode/logs/
+.opencode/sessions/
+.opencode/state/
+.opencode/tmp/
+.opencode/node_modules/
+.opencode/*.db
+.opencode/*.db-wal
+.opencode/*.db-shm
+.codex/
+.claude/
+.cursor/
+.aider*
+
+# Local Cloudflare security-audit skill clone and generated audit output.
+# SECURITY-REVIEW.md is a reviewed project document and is not ignored.
+security-audit-skill/
+security-audit-output/
+.security-audit/
+
+# ---------------------------------------------------------------------------
+# Secrets and credentials
+# ---------------------------------------------------------------------------
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdbx
+*.ovpn
+id_rsa
+id_rsa.*
+!id_rsa.pub
+id_ed25519
+id_ed25519.*
+!id_ed25519.pub
+known_hosts
+.ssh/
+.aws/
+.gnupg/
+.netrc
+.git-credentials
+.npmrc
+.pypirc
+credentials.json
+secrets.json
+service-account*.json
+auth.json
+# Local OpenCode service configuration; use service.example.json for a
+# committable template if one is needed.
+service.json
+!service.example.json
+
+# ---------------------------------------------------------------------------
+# Runtime, cache, and temporary files
+# ---------------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+*.pid
+*.sock
+.cache/
+.tmp/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+node_modules/
+dist/
+build/
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Local databases and shell output from tools
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.out
+
+# ---------------------------------------------------------------------------
+# Large installer and virtual-machine artifacts
+# ---------------------------------------------------------------------------
+*.iso
+*.img
+*.raw
+*.qcow2
+*.vdi
+*.vmdk
+*.rpm
+*.deb
+*.AppImage
+*.snap
+*.flatpak
