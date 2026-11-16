@@ -437,5 +437,5 @@ option. Read [Installation](./03-installation.md) again before starting.
 - [Fedora Quick Docs: DNF system upgrade](https://docs.fedoraproject.org/en-US/quick-docs/dnf-system-upgrade/)
 - [firewalld documentation](https://firewalld.org/documentation/)
 - [Ask Fedora](https://ask.fedoraproject.org/)
-- [Fedora Bugzilla](https://bugzilla.redhat.com/)
+- [Fedora Bugzilla guidance](https://fedoraproject.org/wiki/Bugzilla)
 - [General troubleshooting hub](../troubleshooting/README.md)
