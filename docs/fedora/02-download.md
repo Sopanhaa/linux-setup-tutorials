@@ -235,7 +235,7 @@ This page only downloads a file and writes a USB drive. To undo it:
 
 - [Fedora Workstation download](https://fedoraproject.org/workstation/download/)
 - [Fedora Media Writer](https://fedoraproject.org/workstation/download/)
-- [Preparing boot media](https://docs.fedoraproject.org/en-US/fedora/latest/preparing-boot-media/)
+- [Preparing boot media](https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/)
 - [Verifying Fedora Linux downloads](https://docs.fedoraproject.org/en-US/security/cryptography/signatures/)
 - [Fedora 45 release notes](https://docs.fedoraproject.org/en-US/release-notes/f45/)
 - [Create a bootable USB drive](../guides/bootable-usb.md)

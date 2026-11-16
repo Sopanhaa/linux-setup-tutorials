@@ -338,8 +338,8 @@ a system snapshot automatically during installation.
 - [Fedora 45 release notes](https://docs.fedoraproject.org/en-US/release-notes/f45/)
 - [Fedora Workstation documentation](https://docs.fedoraproject.org/en-US/workstation-docs/)
 - [Anaconda Web UI installation flow](https://anaconda-installer.readthedocs.io/en/latest/anaconda-webui/docs/installation-steps.html)
-- [Preparing boot media](https://docs.fedoraproject.org/en-US/fedora/latest/preparing-boot-media/)
-- [Fedora installation guide](https://docs.fedoraproject.org/en-US/fedora/latest/getting-started/)
+- [Preparing boot media](https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/)
+- [Getting started with Fedora](https://docs.fedoraproject.org/en-US/quick-docs/getting-started-guide/)
 - [Create a bootable USB drive](../guides/bootable-usb.md)
 - [Dual-booting Linux and Windows](../guides/dual-boot.md)
 
