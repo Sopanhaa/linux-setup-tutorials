@@ -17,7 +17,7 @@ Choose this setup if you want to:
 ## Before you start
 
 - Back up important files. See [Linux system maintenance](../../guides/system-maintenance.md).
-- Install Linux. See the [distribution list](../../README.md#distributions).
+- Install Linux. See the [distribution list](../../README.md#linux-installation).
 - Connect to the internet so you can download tools and updates.
 - Decide what you want to build first: a website, a script, a mobile app, or something else.
 - Create a folder for your projects, such as `Projects` in your home folder.
@@ -35,7 +35,7 @@ Most Linux distributions are good for development. These are beginner-friendly c
 
 ## Setup steps
 
-1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#distributions) and follow its installation guide.
+1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#linux-installation) and follow its installation guide.
 2. **Update your system.** Install updates from your software center or package manager. See [Package managers](../../guides/package-managers.md).
 3. **Install a code editor.** Good choices include [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux), [VSCodium](https://vscodium.com/), or [Neovim](https://neovim.io/).
 4. **Install Git.** Git tracks changes in your code. Check that it is installed by opening a terminal and running `git --version`.

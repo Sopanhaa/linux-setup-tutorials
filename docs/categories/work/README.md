@@ -18,7 +18,7 @@ Choose this setup if you want to:
 
 - Check with your employer or IT team. Some required apps may not support Linux.
 - Back up important files. See [Linux system maintenance](../../guides/system-maintenance.md).
-- Install Linux. See the [distribution list](../../README.md#distributions).
+- Install Linux. See the [distribution list](../../README.md#linux-installation).
 - Connect to the internet.
 - Make a list of the apps you must use for work.
 - Have your work account details ready.
@@ -36,7 +36,7 @@ These distributions are good choices for office and daily work:
 
 ## Setup steps
 
-1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#distributions) and follow its installation guide.
+1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#linux-installation) and follow its installation guide.
 2. **Update your system.** Install updates from your software center or package manager. See [Package managers](../../guides/package-managers.md).
 3. **Install an office suite.** [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/) is free and opens common document formats. [OnlyOffice](https://www.onlyoffice.com/download-desktop.aspx) is another option with a familiar layout.
 4. **Set up email and calendar.** Use [Thunderbird](https://www.thunderbird.net/) or open your work email in a browser.

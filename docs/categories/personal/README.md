@@ -18,7 +18,7 @@ Choose this setup if you want to:
 ## Before you start
 
 - Back up important files before you change your system. See [Linux system maintenance](../../guides/system-maintenance.md).
-- Install Linux. See the [distribution list](../../README.md#distributions).
+- Install Linux. See the [distribution list](../../README.md#linux-installation).
 - Connect to the internet.
 - Think about the apps you use every day.
 - Plan where you will keep backups, such as an external drive or cloud storage.
@@ -36,7 +36,7 @@ These distributions are friendly choices for personal use:
 
 ## Setup steps
 
-1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#distributions) and follow its installation guide.
+1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#linux-installation) and follow its installation guide.
 2. **Update your system.** Install updates from your software center or package manager. See [Package managers](../../guides/package-managers.md).
 3. **Install a browser.** [Firefox](https://www.mozilla.org/firefox/) is a good default. Sign in and import bookmarks if you need them.
 4. **Set up media playback.** [VLC](https://www.videolan.org/vlc/) plays most video and audio formats. [Spotify](https://www.spotify.com/download/linux/) is available for music streaming.

@@ -20,7 +20,7 @@ Choose this setup if you want to:
 - Check your school's software requirements. Some exam and proctoring tools may not support Linux.
 - Ask your school IT help desk about supported apps before an exam.
 - Back up important files. See [Linux system maintenance](../../guides/system-maintenance.md).
-- Install Linux. See the [distribution list](../../README.md#distributions).
+- Install Linux. See the [distribution list](../../README.md#linux-installation).
 - Connect to the internet.
 - Have your school login details ready.
 
@@ -37,7 +37,7 @@ These distributions are good choices for school and study:
 
 ## Setup steps
 
-1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#distributions) and follow its installation guide.
+1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#linux-installation) and follow its installation guide.
 2. **Update your system.** Install updates from your software center or package manager. See [Package managers](../../guides/package-managers.md).
 3. **Install an office suite.** [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/) can open and save documents, spreadsheets, and presentations.
 4. **Choose a note-taking app.** [Obsidian](https://obsidian.md/download) is good for linked notes. [Joplin](https://joplinapp.org/download/) is good for simple notes and syncing.

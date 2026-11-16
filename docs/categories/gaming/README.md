@@ -38,7 +38,7 @@ Most Linux distributions can run games. These are good starting points for begin
 
 ## Setup steps
 
-1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#distributions) and follow its installation guide.
+1. **Install Linux.** Choose a distribution from the [distribution list](../../README.md#linux-installation) and follow its installation guide.
 2. **Update your system.** Open your software center or package manager and install updates. See [Package managers](../../guides/package-managers.md).
 3. **Install graphics drivers.** Better drivers can improve game performance. See [Graphics drivers](../../guides/graphics-drivers.md).
 4. **Choose a desktop environment.** Some desktops are lighter or work better with gaming features. See [Linux desktop environments](../../guides/desktop-environments.md).

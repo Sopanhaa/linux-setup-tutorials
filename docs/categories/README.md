@@ -17,7 +17,7 @@ Each category page is written for beginners. It explains what the setup is for, 
 ## How to use these guides
 
 1. Pick the category that is closest to how you use your computer. You can follow more than one.
-2. Choose a Linux distribution from the [distribution list](../README.md#distributions). If you are new to Linux, start with Ubuntu or Linux Mint.
+2. Choose a Linux distribution from the [Linux installation list](../README.md#linux-installation). If you are new to Linux, start with Ubuntu or Linux Mint.
 3. Follow the category steps. Each step links to a detailed guide.
 4. Keep your system updated and back up important files.
 
@@ -32,5 +32,12 @@ Each category page is written for beginners. It explains what the setup is for, 
 - [Package managers](../guides/package-managers.md)
 - [Basic Linux commands](../guides/basic-commands.md)
 - [Linux system maintenance](../guides/system-maintenance.md)
+- [Backup and restore](../maintenance/backup-and-restore.md)
+
+## If something goes wrong
+
+- [Troubleshooting hub](../troubleshooting/README.md)
+- [System configuration hub](../system-configuration/README.md)
+- [Maintenance hub](../maintenance/README.md)
 
 [Back to the project README](../../README.md) · [Documentation home](../README.md)
