@@ -1,4 +1,4 @@
-# Introduction — Ubuntu
+# Introduction Ubuntu
 
 **Learning path:** [Ubuntu overview](./README.md) · [Download](./02-download.md) →
 
@@ -6,7 +6,7 @@ Ubuntu is a free, open-source operating system and one of the most popular Linux
 
 This page explains what Ubuntu is, who it is for, what hardware it needs, and which version you should choose.
 
-## In this tutorial
+## Tutorial
 
 - What Ubuntu is
 - How Ubuntu relates to Linux and Debian
