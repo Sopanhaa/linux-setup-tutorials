@@ -25,7 +25,7 @@ distribution and version.
 
 | Task | Status | Documentation | Notes |
 |---|---|---|---|
-| Fedora installation and setup | Todo | [Fedora guide](docs/fedora/README.md) | All six pages are currently stubs. |
+| Fedora installation and setup | In Review | [Fedora guide](docs/fedora/README.md) | Six Fedora Workstation 45 pages drafted with DNF5, Flatpak, GNOME 51, and security guidance. Needs live testing and review. |
 | NVIDIA graphics driver setup | In Review | [Graphics drivers](docs/guides/graphics-drivers.md) | Cross-distribution guide drafted. Needs testing with Secure Boot and at least one NVIDIA GPU. |
 | Flatpak and Snap installation and configuration | In Review | [Package managers](docs/guides/package-managers.md#flatpak-and-snap) | Commands and verification steps drafted. Needs desktop integration testing. |
 | Git, VS Code, and .NET development setup | Todo | [Development setup](docs/categories/development/README.md) | Category overview exists. A step-by-step tutorial is still needed. |
@@ -41,8 +41,8 @@ distribution and version.
 
 ## Other known gaps
 
-- Fedora, Arch Linux, Debian, Linux Mint, and openSUSE still have stub pages
-  outside Ubuntu.
+- Arch Linux, Debian, Linux Mint, and openSUSE still have stub pages outside
+  Ubuntu and Fedora.
 - General guides for basic commands, desktop environments, dual boot, and system
   maintenance are still stubs or need review.
 - The project license is not selected yet.
