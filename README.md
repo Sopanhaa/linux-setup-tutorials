@@ -36,6 +36,20 @@ Each distribution follows a simple learning path:
 
 > Always back up important files before installing Linux or changing disk partitions.
 
+## Setups by Use Case
+
+Choose the setup that matches how you use your computer. You can follow more than one.
+
+| Setup | Best for | Start here |
+|---|---|---|
+| Gaming | Playing games on Linux | [Gaming setup](docs/categories/gaming/README.md) |
+| Development | Writing code and building software | [Development setup](docs/categories/development/README.md) |
+| Work | Office tasks, email, and video calls | [Work setup](docs/categories/work/README.md) |
+| School | Studying, notes, and online classes | [School setup](docs/categories/school/README.md) |
+| Personal | Everyday home use | [Personal setup](docs/categories/personal/README.md) |
+
+See [all setup categories](docs/categories/README.md) for a short comparison and common next steps.
+
 ## General Linux Guides
 
 The project also covers topics shared across distributions:
