@@ -285,13 +285,44 @@ Check the basics:
 ### Windows no longer appears in the boot menu
 
 - Check the firmware boot menu before changing Linux boot files.
-- Boot Fedora and run:
-  ```bash
-  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-  ```
-  This rebuilds the GRUB configuration. On UEFI systems, the file path may be
-  `/boot/efi/EFI/fedora/grub.cfg`. Do not run random repair scripts.
+- Do not regenerate GRUB unless you have a backup and a live USB available.
 - Back up your files before attempting a bootloader repair.
+
+Identify the firmware mode:
+
+```bash
+test -d /sys/firmware/efi && echo UEFI || echo BIOS
+```
+
+**On a BIOS system**, back up the existing configuration and regenerate it:
+
+```bash
+sudo cp /boot/grub2/grub.cfg /boot/grub2/grub.cfg.backup
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+
+**On a UEFI system**, use the EFI configuration path:
+
+```bash
+sudo cp /boot/efi/EFI/fedora/grub.cfg /boot/efi/EFI/fedora/grub.cfg.backup
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+```
+
+If a backup command reports that the file does not exist, stop and inspect the
+actual layout:
+
+```bash
+findmnt /boot
+findmnt /boot/efi
+```
+
+Fedora may use the Boot Loader Specification (BLS) and may not add Windows
+automatically. If Windows is still missing, stop and follow the official Fedora
+bootloader documentation. Do not run random repair scripts.
+
+> **Bootloader warning:** This rewrites GRUB configuration. A wrong path or
+> interrupted write can make the system unbootable. Keep a live USB and a backup
+> of your files, and have the BitLocker recovery key ready on Windows systems.
 
 ### I forgot the encryption passphrase
 

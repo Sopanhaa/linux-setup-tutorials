@@ -102,12 +102,19 @@ Download the Fedora keyring and verify the checksum file:
 
 ```bash
 curl -O https://fedoraproject.org/fedora.pgp
+gpg --show-keys --with-fingerprint ./fedora.pgp
 gpgv --keyring ./fedora.pgp --output - Fedora-Workstation-45-1.4-x86_64-CHECKSUM | sha256sum -c --ignore-missing
 ```
 
 - `curl -O` downloads the Fedora OpenPGP keyring.
+- `gpg --show-keys` prints the key fingerprints.
 - `gpgv` checks the signature on the checksum file.
 - `sha256sum -c` checks the ISO against the verified checksum.
+
+Compare the fingerprint with the official Fedora key fingerprints at
+[fedoraproject.org/security](https://fedoraproject.org/security/). If the
+fingerprint does not match, stop and download the key again from the official
+source. Do not continue with an untrusted keyring.
 
 Use the exact checksum file name shown on the download page. The build number
 changes between releases and respins.
@@ -122,14 +129,17 @@ signature fails, do not use the image. Download it again from the official site.
 
 1. Download Fedora Media Writer from the official
    [Fedora Workstation download page](https://fedoraproject.org/workstation/download/).
-2. Install and open Fedora Media Writer.
-3. Choose **Select .iso file** if you already downloaded the ISO, or let Media
+2. Before running the installer, compare its SHA-256 value with the value shown
+   on the official download page. On Windows, you can also check the publisher
+   signature in the file properties.
+3. Install and open Fedora Media Writer.
+4. Choose **Select .iso file** if you already downloaded the ISO, or let Media
    Writer download Fedora for you.
-4. Insert the USB drive.
-5. Select the correct drive. Verify its size and name.
-6. Choose **Write** and read the warning about erasing the drive.
-7. Wait until the write completes.
-8. Safely eject the USB drive.
+5. Insert the USB drive.
+6. Select the correct drive. Verify its size and name.
+7. Choose **Write** and read the warning about erasing the drive.
+8. Wait until the write completes.
+9. Safely eject the USB drive.
 
 Fedora Media Writer is the recommended tool because it handles Fedora images and
 verifies the download. If you prefer another tool, follow

@@ -196,6 +196,17 @@ sudo dnf config-manager setopt REPOSITORY-ID.enabled=0
 Replace `REPOSITORY-ID` with the ID from `dnf repolist`. To re-enable it, use
 `.enabled=1`.
 
+> **Do not disable `fedora`, `updates`, or `updates-testing`.** Those repositories
+> provide Fedora packages and security updates. Disable only a broken or unwanted
+> third-party repository. Verify the result with:
+>
+> ```bash
+> dnf repolist
+> ```
+>
+> If you disabled the wrong repository, re-enable it with `.enabled=1` and run
+> `sudo dnf upgrade --refresh`.
+
 If `config-manager` is missing, install the DNF5 plugins:
 
 ```bash
@@ -232,15 +243,23 @@ Review the DNF history:
 sudo dnf history list
 ```
 
-To undo a transaction, use its ID:
+Inspect the transaction before undoing it:
+
+```bash
+sudo dnf history info ID
+```
+
+Read the list of packages that would be installed, removed, or downgraded. Then,
+only if the plan is safe, run:
 
 ```bash
 sudo dnf history undo ID
 ```
 
 > **Warning:** Undoing a transaction can remove or downgrade packages that were
-> installed later. Read the transaction list before confirming. If you are
-> unsure, reinstall the specific package instead.
+> installed later. Old package versions may no longer be available, causing a
+> partial or failed transaction. DNF does not restore configuration files or
+> user data. If you are unsure, reinstall the specific package instead.
 
 ### Flatpak cannot find an application
 
@@ -295,14 +314,42 @@ sudo firewall-cmd --get-active-zones
 sudo firewall-cmd --list-all
 ```
 
-Open only the port or service you need. For example:
+Find the zone that owns the interface you use. Do not assume the default zone is
+the correct zone for every network.
+
+If you need to allow a local development server on port 8080, restrict the rule
+to your local network instead of opening it to every source. Replace
+`192.168.1.0/24` with your own LAN and replace `FedoraWorkstation` with the zone
+from the previous command:
 
 ```bash
-sudo firewall-cmd --add-port=8080/tcp
+sudo firewall-cmd --zone=FedoraWorkstation --add-rich-rule='rule family="ipv4" source address="192.168.1.0/24" port port="8080" protocol="tcp" accept'
 ```
 
-This is a runtime-only rule. Add `--permanent` and run `sudo firewall-cmd
---reload` if you want it to survive a reboot. Remove rules you no longer need.
+- `--zone=` applies the rule only to the named zone.
+- The rich rule allows only the specified source network.
+- Without `--permanent`, the rule disappears after a firewall reload or reboot.
+
+Verify the rule:
+
+```bash
+sudo firewall-cmd --zone=FedoraWorkstation --list-all
+```
+
+Remove it when you no longer need it:
+
+```bash
+sudo firewall-cmd --zone=FedoraWorkstation --remove-rich-rule='rule family="ipv4" source address="192.168.1.0/24" port port="8080" protocol="tcp" accept'
+```
+
+> **Network exposure warning:** Opening a port makes the service reachable by
+> every host allowed by the zone and source rule. Do not expose a development
+> server to the public internet. Prefer a localhost-only service, a VPN, or a
+> source-restricted rule.
+>
+> If you also need IPv6, add a separate rule with `family="ipv6"` and an IPv6
+> source network. Test with `ss -tlnp` and `sudo firewall-cmd --list-all` before
+> using `--permanent`.
 
 ### The computer does not boot after installation
 
@@ -315,19 +362,48 @@ This is a runtime-only rule. Add `--permanent` and run `sudo firewall-cmd
 
 ### Windows is missing from the boot menu
 
+Check the firmware boot menu before changing Linux boot files. Do not regenerate
+GRUB unless you have a backup and a live USB available; a wrong path or
+interrupted write can make the system unbootable.
+
+First identify the firmware mode:
+
 ```bash
+test -d /sys/firmware/efi && echo UEFI || echo BIOS
+```
+
+**On a BIOS system**, back up the existing configuration and regenerate it:
+
+```bash
+sudo cp /boot/grub2/grub.cfg /boot/grub2/grub.cfg.backup
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
-This rebuilds the GRUB configuration. On UEFI systems, the output path may be
-`/boot/efi/EFI/fedora/grub.cfg`. Read the output for a Windows entry.
+**On a UEFI system**, use the EFI configuration path:
 
-If Windows still does not appear, do not run random repair scripts. Read
-[Dual-booting Linux and Windows](../guides/dual-boot.md) and back up your files
-first.
+```bash
+sudo cp /boot/efi/EFI/fedora/grub.cfg /boot/efi/EFI/fedora/grub.cfg.backup
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+```
 
-> **BitLocker warning:** Changing boot order or firmware settings can trigger a
-> BitLocker recovery prompt. Have the recovery key before making changes.
+If a backup command reports that the file does not exist, stop and check your
+actual boot layout with:
+
+```bash
+findmnt /boot
+findmnt /boot/efi
+```
+
+Fedora may use the Boot Loader Specification (BLS) and may not add Windows to the
+menu automatically. Read the output for errors. If Windows is still missing,
+stop and follow the official Fedora bootloader documentation instead of running
+random repair scripts. See also
+[Dual-booting Linux and Windows](../guides/dual-boot.md).
+
+> **Bootloader warning:** This rewrites GRUB configuration. Keep a live USB and a
+> backup of your files. If the system does not boot afterward, use the live USB
+> before attempting another repair. Changing boot settings on a BitLocker system
+> can also trigger a recovery prompt; have the recovery key ready.
 
 ### A Fedora release upgrade fails
 
