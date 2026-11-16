@@ -43,6 +43,23 @@ Every distribution follows the same learning path:
 5. `05-desktop-setup.md`
 6. `06-troubleshooting.md`
 
+Practical setup tutorials follow the template in
+[`docs/templates/setup-tutorial.md`](docs/templates/setup-tutorial.md). The
+required sections are:
+
+1. **Overview** — what the user will set up and what is out of scope.
+2. **Requirements** — distribution versions, hardware, access, and backups.
+3. **Installation** — numbered commands or GUI steps.
+4. **Configuration** — the settings needed after installation.
+5. **Verification** — checks that prove the setup works.
+6. **Troubleshooting** — common problems and safe fixes.
+7. **Uninstall or Restore** — how to undo the change.
+8. **References** — official documentation links.
+
+State the supported Linux versions in the tutorial. If you did not test the
+instructions, say so. Do not describe a tutorial as verified without testing it
+on the stated version.
+
 When adding a new distribution:
 
 1. Create `docs/<distribution-name>/` (lowercase, hyphens instead of spaces).
@@ -55,6 +72,18 @@ When adding a general guide:
 1. Create `docs/guides/<topic>.md`.
 2. Link it from `docs/guides/README.md`, the project `README.md`, and the
    distribution overview pages.
+3. Link it from the relevant hub: `docs/system-configuration/README.md`,
+   `docs/troubleshooting/README.md`, or `docs/maintenance/README.md`.
+4. Add a roadmap task if the guide is planned but not finished.
+
+When adding a use-case tutorial:
+
+1. Put it in the matching `docs/categories/<category>/` folder.
+2. Link it from the category page and from `docs/categories/README.md` when it
+   is a major setup.
+3. Follow the setup tutorial template.
+4. Do not add automatic installation scripts unless the project agrees to
+   maintain and test them.
 
 ## Replacing a stub
 
@@ -65,7 +94,22 @@ Stub pages contain this notice:
 ```
 
 Write the content, then remove the notice. Keep the existing navigation links at
-the top of the page.
+the top of the page. Follow the setup tutorial template for practical tutorials,
+and update the matching task in [`ROADMAP.md`](ROADMAP.md) when the page is
+drafted or reviewed.
+
+## Distribution overview pages
+
+Keep the `README.md` inside each distribution folder consistent:
+
+- a one-sentence description
+- official website and documentation links
+- the six-step learning path
+- safety note
+- related guides
+
+Do not add a separate navigation system per distribution. Use the shared
+learning path and the project documentation index.
 
 ## Safety
 
