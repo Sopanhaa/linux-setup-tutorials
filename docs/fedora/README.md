@@ -25,3 +25,5 @@ Fedora — Modern Linux for desktop users and developers.
 - [Package managers](../guides/package-managers.md)
 - [Basic Linux commands](../guides/basic-commands.md)
 - [Linux system maintenance](../guides/system-maintenance.md)
+
+See also: [System configuration](../system-configuration/README.md) · [Troubleshooting](../troubleshooting/README.md) · [Maintenance](../maintenance/README.md).
