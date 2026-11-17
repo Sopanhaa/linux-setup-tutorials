@@ -10,11 +10,11 @@ file, not on where the file is stored.
 | Material | License | SPDX identifier | License text |
 |---|---|---|---|
 | Documentation: Markdown pages, diagrams, images, and other written content | [Creative Commons Attribution-ShareAlike 4.0 International](CC-BY-SA-4.0.txt) | `CC-BY-SA-4.0` | `CC-BY-SA-4.0.txt` |
-| Scripts: shell, Python, and other executable code; configuration files | [MIT License](MIT) | `MIT` | `MIT` |
+| Scripts: shell, Python, and other executable code; configuration files | [MIT License](../MIT) | `MIT` | `../MIT` |
 
-The root [LICENSE](../LICENSE) is a byte-identical copy of
-`CC-BY-SA-4.0.txt`, kept for GitHub's license detection. `LICENSES/` is the
-authoritative license directory.
+The root [LICENSE](../LICENSE) and [MIT](../MIT) files are the standard root
+license files used for GitHub detection. `LICENSES/` contains the project
+licensing statement and the CC BY-SA text.
 
 This is not a dual-license choice for a single file. Each file is covered by
 the license for its content type, unless the file carries a different SPDX
@@ -22,7 +22,7 @@ notice.
 
 ## License texts
 
-The license texts in this directory are the official texts. The MIT text
+The license texts in this repository are the official texts. The MIT text
 includes the project copyright line in place of the placeholder.
 
 ## Documentation
@@ -45,7 +45,7 @@ All scripts and configuration files are licensed under the MIT License. You
 may use, copy, modify, merge, publish, distribute, sublicense, and sell them,
 provided the copyright notice and permission notice are included.
 
-The full license text is in [MIT](MIT). The SPDX license page is at
+The full license text is in [MIT](../MIT). The SPDX license page is at
 <https://spdx.org/licenses/MIT.html>.
 
 ## SPDX identifiers
@@ -93,9 +93,10 @@ request.
 
 ## GitHub license detection
 
-GitHub may display only the root `LICENSE` (CC BY-SA 4.0). It does not
-automatically detect or display this per-file split. `LICENSES/COPYING`, this
-file, and the SPDX headers define the actual licensing scope.
+GitHub may display the root `LICENSE` (CC BY-SA 4.0) and the root `MIT` file
+separately. It does not automatically represent this per-file split as one
+license. `LICENSES/COPYING`, this file, and the SPDX headers define the actual
+licensing scope.
 
 ## Relationship to the Linux kernel
 
