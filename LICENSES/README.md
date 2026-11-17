@@ -10,7 +10,7 @@ file, not on where the file is stored.
 | Material | License | SPDX identifier | License text |
 |---|---|---|---|
 | Documentation: Markdown pages, diagrams, images, and other written content | [Creative Commons Attribution-ShareAlike 4.0 International](CC-BY-SA-4.0.txt) | `CC-BY-SA-4.0` | `CC-BY-SA-4.0.txt` |
-| Scripts: shell, Python, and other executable code; configuration files | [MIT License](MIT.txt) | `MIT` | `MIT.txt` |
+| Scripts: shell, Python, and other executable code; configuration files | [MIT License](MIT) | `MIT` | `MIT` |
 
 The root [LICENSE](../LICENSE) is a byte-identical copy of
 `CC-BY-SA-4.0.txt`, kept for GitHub's license detection. `LICENSES/` is the
@@ -45,7 +45,7 @@ All scripts and configuration files are licensed under the MIT License. You
 may use, copy, modify, merge, publish, distribute, sublicense, and sell them,
 provided the copyright notice and permission notice are included.
 
-The full license text is in [MIT.txt](MIT.txt). The SPDX license page is at
+The full license text is in [MIT](MIT). The SPDX license page is at
 <https://spdx.org/licenses/MIT.html>.
 
 ## SPDX identifiers
