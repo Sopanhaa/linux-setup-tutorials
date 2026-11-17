@@ -103,9 +103,17 @@ first checks. Each distribution also has a troubleshooting page:
 Contributions are welcome. You can improve tutorials, fix errors, report broken
 links, or translate guides.
 
-Tutorials should stay simple, accurate, and safe for beginners. See
-[CONTRIBUTING.md](CONTRIBUTING.md) and the
-[setup tutorial template](docs/templates/setup-tutorial.md).
+- Open an issue for large changes so we can agree on the approach.
+- Keep each page focused on one topic and test every command you document.
+- Write for someone installing Linux for the first time. Use short sentences,
+  numbered steps, and explain why a step matters.
+- Warn before destructive commands and offer a safe rollback.
+- Follow the [setup tutorial template](docs/templates/setup-tutorial.md). Do
+  not add automatic installation scripts unless the project agrees to maintain
+  and test them.
+
+By contributing, you agree to license your work under the project license for
+that content type. See [LICENSING.md](LICENSING.md).
 
 ## Official Documentation
 
@@ -118,4 +126,8 @@ Tutorials should stay simple, accurate, and safe for beginners. See
 
 ## License
 
-License to be selected before public release.
+Documentation is licensed under [CC BY-SA 4.0](LICENSE). Scripts and
+configuration files are licensed under the [MIT License](LICENSES/MIT.txt).
+
+See [LICENSING.md](LICENSING.md) for the exact scope, attribution requirements,
+and SPDX identifiers.

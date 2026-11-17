@@ -1,7 +1,8 @@
 # Initial Setup — openSUSE
 
 > 🚧 **Stub page.** This page is a placeholder and will be written soon.
-> Contributions are welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+> Contributions are welcome — see the
+> [contributing section](../../README.md#contributing).
 
 **Learning path:** ← [Installation](./03-installation.md) · [openSUSE overview](./README.md) · [Desktop Setup](./05-desktop-setup.md) →
 

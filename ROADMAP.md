@@ -45,7 +45,6 @@ distribution and version.
   Ubuntu and Fedora.
 - General guides for basic commands, desktop environments, dual boot, and system
   maintenance are still stubs or need review.
-- The project license is not selected yet.
 
 ## How to update this roadmap
 

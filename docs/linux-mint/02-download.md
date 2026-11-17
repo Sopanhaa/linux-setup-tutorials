@@ -1,7 +1,8 @@
 # Download — Linux Mint
 
 > 🚧 **Stub page.** This page is a placeholder and will be written soon.
-> Contributions are welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+> Contributions are welcome — see the
+> [contributing section](../../README.md#contributing).
 
 **Learning path:** ← [Introduction](./01-introduction.md) · [Linux Mint overview](./README.md) · [Installation](./03-installation.md) →
 

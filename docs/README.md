@@ -76,8 +76,8 @@ common next steps.
 
 ## Contributing
 
-Read [CONTRIBUTING.md](../CONTRIBUTING.md) before changing a tutorial. New
-practical tutorials should follow the
+Read the [contributing section](../README.md#contributing) before changing a
+tutorial. New practical tutorials should follow the
 [setup tutorial template](./templates/setup-tutorial.md).
 
 [Back to the project README](../README.md)

@@ -1,7 +1,8 @@
 # Desktop Setup — Debian
 
 > 🚧 **Stub page.** This page is a placeholder and will be written soon.
-> Contributions are welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+> Contributions are welcome — see the
+> [contributing section](../../README.md#contributing).
 
 **Learning path:** ← [Initial Setup](./04-initial-setup.md) · [Debian overview](./README.md) · [Troubleshooting](./06-troubleshooting.md) →
 
