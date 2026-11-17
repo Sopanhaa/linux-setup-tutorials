@@ -113,7 +113,8 @@ links, or translate guides.
   and test them.
 
 By contributing, you agree to license your work under the project license for
-that content type. See [LICENSING.md](LICENSING.md).
+that content type. See [CONTRIBUTING.md](CONTRIBUTING.md) and
+[LICENSES/README.md](LICENSES/README.md) for details.
 
 ## Official Documentation
 
@@ -126,8 +127,11 @@ that content type. See [LICENSING.md](LICENSING.md).
 
 ## License
 
-Documentation is licensed under [CC BY-SA 4.0](LICENSE). Scripts and
-configuration files are licensed under the [MIT License](LICENSES/MIT.txt).
+This project is available under open-content and open-source licenses.
 
-See [LICENSING.md](LICENSING.md) for the exact scope, attribution requirements,
-and SPDX identifiers.
+- Documentation is licensed under [CC BY-SA 4.0](LICENSE).
+- Scripts and configuration files are licensed under the
+  [MIT License](LICENSES/MIT.txt).
+
+See [COPYING](COPYING) and [LICENSES](LICENSES/README.md) for licensing
+details.
