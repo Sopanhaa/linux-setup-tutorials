@@ -133,5 +133,5 @@ This project is available under open-content and open-source licenses.
 - Scripts and configuration files are licensed under the
   [MIT License](LICENSES/MIT).
 
-See [COPYING](COPYING) and [LICENSES](LICENSES/README.md) for licensing
-details.
+See [COPYING](LICENSES/COPYING) and [LICENSES](LICENSES/README.md) for
+licensing details.

@@ -67,7 +67,7 @@ Documentation may use an HTML comment:
 ```
 
 Existing documentation does not need a per-file header. The repository-level
-notice in this file and in [COPYING](../COPYING) applies.
+notice in this file and in [COPYING](COPYING) applies.
 
 ## Contributions
 
