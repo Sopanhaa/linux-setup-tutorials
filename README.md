@@ -129,8 +129,7 @@ details.
 
 This project is available under open-content and open-source licenses.
 
-- Documentation is licensed under
-  [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt).
+- Documentation is licensed under [CC BY-SA 4.0](LICENSE).
 - Scripts and configuration files are licensed under the
   [MIT License](LICENSES/MIT).
 
