@@ -12,10 +12,6 @@ file, not on where the file is stored.
 | Documentation: Markdown pages, diagrams, images, and other written content | [Creative Commons Attribution-ShareAlike 4.0 International](CC-BY-SA-4.0.txt) | `CC-BY-SA-4.0` | `CC-BY-SA-4.0.txt` |
 | Scripts: shell, Python, and other executable code; configuration files | [MIT License](MIT) | `MIT` | `MIT` |
 
-The root [LICENSE](../LICENSE) is a byte-identical copy of
-`CC-BY-SA-4.0.txt`, kept for GitHub's license detection. `LICENSES/` is the
-authoritative license directory.
-
 This is not a dual-license choice for a single file. Each file is covered by
 the license for its content type, unless the file carries a different SPDX
 notice.
@@ -81,7 +77,8 @@ keep any copyright you hold in your contribution.
 No Contributor License Agreement or Developer Certificate of Origin is
 required.
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) before opening a pull request.
+See the [contributing section](../README.md#contributing) before opening a pull
+request.
 
 ## Third-party material
 
@@ -92,9 +89,9 @@ request.
 
 ## GitHub license detection
 
-GitHub may display only the root `LICENSE` (CC BY-SA 4.0). It does not
-automatically detect or display this per-file split. `COPYING`, this file, and
-the SPDX headers define the actual licensing scope.
+This repository does not use a single root `LICENSE` file. GitHub may not
+detect or display the split licensing. `COPYING`, this file, and the SPDX
+headers define the actual licensing scope.
 
 ## Relationship to the Linux kernel
 

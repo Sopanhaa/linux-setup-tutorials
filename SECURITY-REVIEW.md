@@ -70,8 +70,7 @@ this table.
 ### Files inspected
 
 - `README.md`
-- `CONTRIBUTING.md` (present during the review; restored afterward in a shorter
-  form)
+- `CONTRIBUTING.md` (present during the review; removed afterward)
 - `ROADMAP.md`
 - All distribution tutorials under `docs/ubuntu/`, `docs/fedora/`,
   `docs/arch-linux/`, `docs/debian/`, `docs/linux-mint/`, and `docs/opensuse/`
@@ -571,7 +570,8 @@ These items were reviewed and are **not** confirmed vulnerabilities.
 
 ### Priority 4 — Process hardening
 
-1. Add a short “dangerous command” checklist to `CONTRIBUTING.md`.
+1. Add a short “dangerous command” checklist to the contributing section in
+   `README.md`.
 2. Require a warning, rollback step, and official reference for every destructive
    command.
 3. If GitHub Actions are added later, use least privilege

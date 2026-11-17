@@ -1,25 +1,19 @@
 The Linux Setup Tutorials project is provided under:
 
-    Documentation:              SPDX-License-Identifier: CC-BY-SA-4.0
-    Scripts and configuration:  SPDX-License-Identifier: MIT
+    Documentation: CC-BY-SA-4.0
+    Scripts:       MIT
 
-The documentation is licensed under the terms of the
-Creative Commons Attribution-ShareAlike 4.0 International
-license, according to:
+Being under the terms of the respective licenses,
+according to:
 
     CC-BY-SA-4.0.txt
-
-Scripts and configuration files are licensed under the terms of the
-MIT License, according to:
-
     MIT
 
-Additional licenses may apply to specific materials.
-Please see:
+In addition, other licenses may also apply. Please see:
 
     README.md
 
-for further details.
+for more details.
 
-Contributions to Linux Setup Tutorials are subject
-to the applicable licensing terms.
+All contributions to Linux Setup Tutorials are subject
+to the applicable license terms.
